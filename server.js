@@ -9,7 +9,7 @@ const student = require("./routes/student");
 
 app.use(express.json({ extended: false }));
 app.use(cors());
-app.get("/", (req, res) => {
+app.get("./client", (req, res) => {
   res.send("Working");
 });
 
@@ -27,7 +27,7 @@ app.get("*", function (_, res) {
   );
 });
 
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 5000;
 db.sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(`Listening on: http://localhost:${PORT}`);
