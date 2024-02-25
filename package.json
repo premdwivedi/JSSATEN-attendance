@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node server.js",
+    "start": "node server.js",
+    "server": "nodemon server",
     "test": "npx sequelize-cli db:create && npm run server",
     "client": "cd client && npm start",
-    "start": "concurrently \"npm run test\" \"npm run client \" "
+    "dev": "concurrently \"npm run test\" \"npm run client \" "
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
