@@ -43,8 +43,8 @@ export const Landing = () => {
         <div className="landing">
           <div className="home-wrap">
             <div className="home-inner">
+            <image className=" home-bg" src="../../../final.bg"></image>
               <div className="home-bg"></div>
-              <image className=" home-bg" src="../../../final.bg"></image>
             </div>
           </div>
         </div>
