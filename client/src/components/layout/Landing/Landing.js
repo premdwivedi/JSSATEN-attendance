@@ -44,6 +44,7 @@ export const Landing = () => {
           <div className="home-wrap">
             <div className="home-inner">
               <div className="home-bg"></div>
+              <image className=" home-bg" src="../../../final.bg"></image>
             </div>
           </div>
         </div>
