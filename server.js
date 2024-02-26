@@ -6,12 +6,12 @@ const app = express();
 const faculty = require("./routes/faculty");
 const student = require("./routes/student");
 
+const __dirname = path.resolve();
+
 
 app.use(express.json({ extended: false }));
 app.use(cors());
-app.get("./client", (req, res) => {
-  res.send("Working");
-});
+
 
 app.use("/api/faculty", faculty);
 app.use("/api/student", student);
