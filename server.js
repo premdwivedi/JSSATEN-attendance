@@ -6,8 +6,6 @@ const app = express();
 const faculty = require("./routes/faculty");
 const student = require("./routes/student");
 
-const __dirname = path.resolve();
-
 
 app.use(express.json({ extended: false }));
 app.use(cors());
