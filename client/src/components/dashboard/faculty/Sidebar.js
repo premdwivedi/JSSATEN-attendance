@@ -42,7 +42,7 @@ export const Sidebar = ({ auth: { user }, logout }) => {
           to="/faculty/chat"
         >
           <li className="sidenav__list-item">
-            <b>Edit</b>
+            <b>Comment</b>
           </li>
         </Link>
 
