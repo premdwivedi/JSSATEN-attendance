@@ -113,7 +113,7 @@ const StudentAttendance = ({
         </div>
       </main>
       <footer className="footer">
-        <div className="footer__copyright">&copy; IIITDMJ</div>
+        <div className="footer__copyright">&copy; JSSATEN</div>
         <div className="footer__signature">
           The Ultimate Attendance Management Tool
         </div>
@@ -134,7 +134,7 @@ const StudentAttendance = ({
         </h1>
       </main>
       <footer className="footer">
-        <div className="footer__copyright">&copy; IIITDMJ</div>
+        <div className="footer__copyright">&copy; JSSATEN</div>
         <div className="footer__signature">
           The Ultimate Attendance Management Tool
         </div>
