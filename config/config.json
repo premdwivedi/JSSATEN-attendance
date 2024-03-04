@@ -1,23 +1,23 @@
 {
     "development": {
-      "username": "sql6686760",
-      "password": "Q9ZAypSIej",
-      "database": "sql6686760",
-      "host": "sql6.freesqldatabase.com",
+      "username": "uym5zib7yfjn7tgx",
+      "password": "bkntWDez085cWGoltq44",
+      "database": "buicexwm8phrygt6g7im",
+      "host": "buicexwm8phrygt6g7im-mysql.services.clever-cloud.com",
       "dialect": "mysql"
     },
     "test": {
-      "username": "sql6686760",
-      "password": "Q9ZAypSIej",
-      "database": "sql6686760",
-      "host": "sql6.freesqldatabase.com",
+      "username": "uym5zib7yfjn7tgx",
+      "password": "bkntWDez085cWGoltq44",
+      "database": "buicexwm8phrygt6g7im",
+      "host": "buicexwm8phrygt6g7im-mysql.services.clever-cloud.com",
       "dialect": "mysql"
     },
     "production": {
-      "username": "sql6686760",
-      "password": "Q9ZAypSIej",
-      "database": "sql6686760",
-      "host": "sql6.freesqldatabase.com",
+      "username": "uym5zib7yfjn7tgx",
+      "password": "bkntWDez085cWGoltq44",
+      "database": "buicexwm8phrygt6g7im",
+      "host": "buicexwm8phrygt6g7im-mysql.services.clever-cloud.com",
       "dialect": "mysql"
     }
   }
